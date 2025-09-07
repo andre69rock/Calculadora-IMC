@@ -1,0 +1,53 @@
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #4CAF50;
+}
+
+body{
+  padding:0px;
+  background: #A3B2B9; 
+  text-align: center; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  height: 100vh; 
+  gap: 10px;
+ }      
+.content-box {
+  background: #ECF0F3;
+  width: 300px;
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border-radius: 15px;
+  border: 4px solid #4CAF50;
+}
+.calculate {
+  background-color: #4CAF50;
+  color: white; 
+  padding: 10px;
+  width: 65px;
+  height: 30px;
+  border: none;
+  cursor: pointer; 
+  padding: 5px 10px;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+  }
+.calculate:hover{
+background-color: #388e3c; 
+  transform: scale(1.05);
+}
+input:focus {
+  outline: none;
+  border: 2px solid #4CAF50;  /* verde igual ao botão */
+  box-shadow: 0 0 5px #4CAF50;
+}
+.resultado{
+  text-color: green;
+}
